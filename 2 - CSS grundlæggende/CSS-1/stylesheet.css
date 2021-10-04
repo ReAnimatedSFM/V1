@@ -1,0 +1,28 @@
+
+
+#main {
+    color:orange;
+    font-size: 30px;
+}
+
+p.question {
+    color: lightseagreen;
+    font-size: 18px;
+}
+
+p.answer {
+    color:lightslategray;
+    font-size: 18px;
+}
+
+* {
+    font-weight: bold;
+}
+
+table {
+    width: 600px;
+}
+
+table, tr, td, th {
+    border:1px solid black;
+}
