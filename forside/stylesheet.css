@@ -1,0 +1,30 @@
+ul.html1 {
+    background-image:url(/images/assignment-backdrop.gif);
+    background-repeat: no-repeat;
+    background-size:253px 430px;
+    border: 1px solid rgba(40, 40, 235, .2);
+    outline:10px solid rgba(40, 40, 117, .4);
+    outline-style: ridge;
+    margin-right: 1275px;
+    margin-left: -5px;
+    border-collapse: collapse;
+}
+
+ul.css1 {
+    background:black;
+}
+
+a {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif ;
+    text-decoration: none;
+    margin-left: -32px;
+}
+
+a.ekstra {
+    border-bottom: 1px solid rgba(40, 40, 235, .2);
+    margin-right:132px;
+}
