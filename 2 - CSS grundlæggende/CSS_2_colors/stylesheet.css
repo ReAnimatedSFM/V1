@@ -1,0 +1,46 @@
+
+body {
+    background-color: #3d9b7d;
+}
+
+ul {
+    list-style: none;
+    margin-top: -5px;
+    margin-left: -45px;
+}
+
+li:nth-child(odd) {
+    background-color: #bbb;
+}
+
+li:nth-child(even) {
+    background-color: #ddd;
+}
+
+ul li::before {
+    content: "\2022";
+    color: black;
+    width: 1em;
+  }
+
+  p{
+      margin-top: -10px;
+      margin-bottom: 10px;
+  }
+
+* {
+    color:white;
+}
+
+.grn {
+    
+    background-color: #2541177f;
+}
+
+.gray {
+    background: hsl(180, 10%, 20%);
+}
+
+.blue {
+    background: rgb(0, 0, 140);
+}
