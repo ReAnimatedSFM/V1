@@ -1,0 +1,52 @@
+
+* {
+ color: white;
+ font-size:18px;
+}
+
+body {
+    background-image: url(../../images/flower.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    background-color: purple;
+    background-image: url(../../images/pear.png);
+    margin-right: 500px;
+    background-blend-mode: darken;
+}
+
+.one {
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.two {
+    background-position: center;
+    background-repeat:repeat;
+}
+
+.one, .two {
+    background-size: 2%;
+}
+
+.three {
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.four {
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    background-image: url(../../images/pearf.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h3 {background-color: black;}
