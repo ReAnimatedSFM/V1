@@ -1,0 +1,76 @@
+
+html {
+    font-size: 1rem;
+}
+
+h4 {
+    margin-top: -1px;
+    margin-left: 180px;
+    position: fixed;
+    color:#d7752c;
+    font-size: 20px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h5 {
+    font-size: medium;
+    margin-left: 30px;
+    margin-bottom: -5px;
+    color: #9497db;
+}
+
+.list{
+    color:white;
+    background-color:#292d7b;
+    border:5px outset purple;
+    border-radius: 10px;
+    outline:2px orange outset;
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-image: url(img/shop.svg);
+}
+
+table, tr, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 2000px;
+}
+
+.table {
+    font-size: 28px;
+    width: 400px;
+    overflow: auto;
+    font-size: 28px;
+}
+
+tr.trbg:hover {
+    background-color:rgba(12, 12, 12, 0.116);
+    background-color:#292d7bdc;
+    background-blend-mode:overlay;
+}
+
+tr.trbg:not(:hover)  {
+    background-color:#292d7b;
+}
+
+th:hover {
+    background-color:#dddd;
+    background-color:#292d7b62;
+    background-blend-mode:overlay;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td:hover {
+    background-color:rgba(190, 190, 190, 0.867);
+}
