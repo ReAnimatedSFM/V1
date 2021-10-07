@@ -1,0 +1,78 @@
+
+html {
+    color:white;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.container {
+    background-color: hsl(194, 100%, 31%);
+    max-width: 1000px;
+    padding: 1.5rem;
+    position: relative;
+    top: 50%; 
+    left: 50%;
+    transform:translate(-50%, -0%);
+}
+
+
+/*-----<container>-----*/
+
+.answer {
+    margin-right: 505px;
+    overflow:hidden;
+    white-space:normal;
+    text-overflow: ellipsis;
+    color: rgb(255, 255, 0);
+}
+
+p {
+    color:#ddd;
+}
+
+li, a {
+    position: relative;   
+    display: inline-block;
+    padding-right: 15px;
+    color:hsl(194, 100%, 70%);
+}
+
+ul {
+    padding-left: 10px;
+}
+
+img {
+    position:relative;
+    top: 50%; 
+    left: 35%;
+}
+
+/*-----<table_styling>-----*/
+
+.t1, .t2 {
+    width:500px;
+    background-color: white;
+    color:#111;
+    padding:1px;
+}
+
+th {
+    background-color: hsl(194, 100%, 31%);
+    color:white;
+}
+
+.female {
+    background-color:#ccc ;
+}
+
+.male {
+    background-color: #bbb;
+}
+
+.t2:is(.t2) .male {
+    display: none;
+}
