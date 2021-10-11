@@ -1,0 +1,48 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.child1 {
+    white-space: nowrap;
+    order:1;
+    font-weight: 700;
+    color: white;
+}
+
+.child2, a {
+    font-weight: 300;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding:15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    white-space: nowrap;
+    order:2;
+    color: hsl(196, 56%, 86%);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+}
+
+a:hover, a:active {
+    transition:0.5s;
+    text-decoration: underline;
+    background-color: hsl(188, 100%, 26%);
+}
+
+
+nav {
+    background-color: hsl(188, 100%, 36%);
+}
+
+header {
+    background-color: hsl(196, 56%, 16%);
+}
