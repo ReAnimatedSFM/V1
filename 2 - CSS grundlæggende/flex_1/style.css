@@ -17,29 +17,34 @@
     color: white;
 }
 
-.child2, a {
+.child2 {
+    order:2;
+}
+
+a {
+    display: inline-block;
     font-weight: 300;
     font-size: 11px;
     text-transform: uppercase;
-    padding:15px;
     margin-left: 20px;
     margin-right: 20px;
-    text-align: center;
+    padding:15px;
     white-space: nowrap;
-    order:2;
     color: hsl(196, 56%, 86%);
     text-decoration: underline;
     text-decoration-color: transparent;
+    transition:0.5s;
 }
 
 a:hover, a:active {
-    transition:0.5s;
     text-decoration: underline;
     background-color: hsl(188, 100%, 26%);
 }
 
 
 nav {
+    display: flex;
+    justify-content: center;
     margin-right: -8px;
     margin-left: -8px;
     background-color: hsl(188, 100%, 36%);
