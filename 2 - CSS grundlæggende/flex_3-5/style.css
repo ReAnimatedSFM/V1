@@ -1,0 +1,316 @@
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-color: white ;
+    margin:0;
+    overflow-x: hidden;
+}
+
+.parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.child {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 3.5vh;
+    width: 100%;
+
+    text-transform: uppercase;
+
+}
+
+.head {
+    display: inline-block;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+
+    font-weight:100;
+    margin: -5px;
+    font-size: 9.5px;
+
+}
+
+.inline {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.head1 {
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    margin-left: -55px;
+    margin-bottom: -10px;
+    background-color: hsl(0, 0%, 93%);
+}
+
+.head1 a {
+    display: inline-flex;
+    justify-content: left;
+    align-self: flex-start;
+
+
+    font-weight: 700;
+    font-size: 12px;
+    padding: 10px;
+
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+
+    left: 50%;
+    top:50%;
+
+    transform: translate(-850%, -10%);
+
+    
+    text-decoration: none;
+    color:black;
+    transition: 0.5s border;
+}
+
+.head1 a:hover {
+    border-color: black;
+}
+
+.head2 {
+    display: flex;
+    justify-content: center;
+    align-self:auto;
+    position: sticky;
+
+    border: 1px solid hsl(0, 0%, 93%);
+    box-shadow: 0px 5px 10px hsl(0, 0%, 80%);
+    background-color: hsl(36, 19%, 95%);
+    border-top: 1px solid hsl(40, 5%, 88%);
+
+    margin: -5px;
+    padding: -5px;
+    padding-right: 155px;
+
+}
+
+.head2 p {
+    padding: 15px;
+    margin: 5px;
+}
+
+.head2 a {
+    color: black;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.head2 p:hover {
+    box-shadow: 0px 5px 2px hsl(0, 0%, 80%);
+}
+
+/*--- Header ---*/
+
+.container {
+    width: 1200px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+
+    margin-top:125px;
+
+
+}
+
+.nav1 {
+    display:flex;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 0;
+    margin:0;
+    margin-right: 150px;
+}
+
+.nav1 input {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+
+    width: 100px;
+
+    display: inline-flex;
+}
+
+.Search {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    transform: translate(0, 25%);
+}
+
+.SBar {
+    padding-left:10px;
+    border: transparent;
+    outline: none;
+}
+
+/*--- Navigation / Price Range ---*/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position:absolute;
+    flex-wrap: wrap;
+
+    width: 1000px;
+
+    transform: translate(60%,25%);
+}
+
+main img {
+    flex-shrink: 1;
+    flex-grow: 0;
+    align-items: center;
+    flex-basis: 33.333333%;
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+img:hover {
+    transform: scale(120%);
+}
+
+.card {
+
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border-bottom: 80px solid white;
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 10px hsl(0, 0%, 80%);
+
+
+
+    margin-left: 10px;
+
+    background-color: hsl(0, 0%, 91%);
+}
+
+.card .fa:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.card .fa {
+    margin-bottom:300px ;
+}
+
+.card p {
+    flex-wrap: wrap;
+    justify-self: flex-end;
+    align-self: center;
+    transform: translate(-0%, 1175%);
+    position: absolute;
+    display: inline-block;
+}
+
+.card button {
+    display: inline-block;
+    flex-wrap: nowrap;
+    justify-self: flex-start;
+    align-self: center;
+    transform: translate(150%, 850%);
+    position: absolute;
+    outline: 0;
+
+    border: 4px solid hsl(166, 92%, 26%);
+    border-radius: 20px;
+    background-color: hsl(166, 92%, 26%);
+    color: white;
+    font-size: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    text-decoration: none;
+    
+}
+
+.card button:hover {
+    opacity: 80%;
+}
+
+/*--- Main ---*/
+
+footer {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+
+    transform: translate(40%, 500%);
+    padding-bottom: 70px;
+}
+
+.info {
+    align-self: stretch;
+    position: relative;
+    flex-wrap: wrap;
+
+    width: 300px;
+
+    flex-grow: 0;
+    flex-shrink: 1;
+
+    flex-basis: 25%;
+    line-height: 12px;
+
+}
+
+/*--- Footer ---*/
+
+
+.chat {
+    position: fixed;
+    transform: translate(1500%, 1750%);
+    border: 10px solid rgba(66, 66, 255, 0.973);
+    border-radius: 30px;
+    text-decoration: none;
+    outline: none;
+    offset: none;
+
+}
+
+.chat button {
+    border: none;
+    outline: none;
+    outline-color: transparent;
+    offset: none;
+    cursor: pointer;
+
+    background-color: rgba(66, 66, 255, 0.973);
+}
+
+.chat:hover {
+    opacity: 80%;
+}
+
+
