@@ -4,18 +4,18 @@
     align-items: center;
 }
 
-.Container .parent:nth-of-type(1) {justify-content: flex-start;}
-.Container .parent:nth-of-type(2) {justify-content: end;}
-.Container .parent:nth-of-type(3) {justify-content: center;}
-.Container .parent:nth-of-type(4) {justify-content:space-between;}
-.Container .parent:nth-of-type(5) {justify-content:space-around;}
-.Container .parent:nth-of-type(6) {align-items: flex-start;}
-.Container .parent:nth-of-type(7) {align-items: flex-end;}
-.Container .parent:nth-of-type(8) {align-items: center;}
-.Container .parent:nth-of-type(9) {flex-wrap: wrap;}
-.Container .parent:nth-of-type(10) {align-self:flex-end;}
-.Container .parent:nth-of-type(11) {order:2;}
-.Container .parent:nth-of-type(12) {flex:auto;}
+.parent:nth-of-type(1) {justify-content: flex-start;}
+.parent:nth-of-type(2) {justify-content: end;}
+.parent:nth-of-type(3) {justify-content: center;}
+.parent:nth-of-type(4) {justify-content:space-between;}
+.parent:nth-of-type(5) {justify-content:space-around;}
+.parent:nth-of-type(6) {height: 100px; align-items: flex-start;}
+.parent:nth-of-type(7) {height: 100px; align-items: flex-end;}
+.parent:nth-of-type(8) {align-items: center; height: 100px;}
+.parent:nth-of-type(9) {flex-wrap: wrap;} .parent:nth-of-type(9) .child {flex-basis: 33.33%;}
+.parent:nth-of-type(10) :nth-child(4) {align-self:flex-end;} .parent:nth-of-type(10) :nth-child(1) {align-self:flex-start;} .parent:nth-of-type(10) :nth-child(2) {align-self:flex-start;} .parent:nth-of-type(10) :nth-child(3) {align-self:flex-start;} .parent:nth-of-type(10) {height: 100px;}
+.parent:nth-of-type(11) :nth-child(1) {order:4;} .parent:nth-of-type(11) :nth-child(3) {order:3;} .parent:nth-of-type(11) :nth-child(2) {order:2;} .parent:nth-of-type(11) :nth-child(4) {order:1;}
+.parent:nth-of-type(12) :nth-child(1) {flex-basis: 33.33%;} .parent:nth-of-type(12) :nth-child(4) {flex-basis: 33.33%;}
 
 h1 {
     text-align: center;
@@ -34,13 +34,14 @@ h4 {
     flex-grow: 1;
     flex-shrink: 1;
     
-    transform: translate(-11.25%, 50%);
+    transform: translate(-10.0%, 50%);
 }
 
 .parent {
     display:flex;
     max-width: 600px;
     margin: 0 auto;
+    flex: 1;
     background-color: #ccc;
 }
 
