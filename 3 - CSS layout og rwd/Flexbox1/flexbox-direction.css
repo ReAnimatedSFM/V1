@@ -1,0 +1,52 @@
+
+.Container {
+    display:block;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Container .parent:nth-of-type(1) {flex-direction: row;}
+.Container .parent:nth-of-type(2) {flex-direction: row-reverse;}
+.Container .parent:nth-of-type(3) {flex-direction: column;}
+.Container .parent:nth-of-type(4) {flex-direction: column-reverse;}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    transform: translate(-11.25%, 50%);
+}
+
+.parent {
+    display: flex;
+    flex-direction: inherit;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+.child {
+    width: 100px;
+    padding:10px;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 42px;
+}
+
+.parent :nth-child(1) {background-color: red;}
+.parent :nth-child(2) {background-color: green;}
+.parent :nth-child(3) {background-color: blue;}
+.parent :nth-child(4) {background-color: orange;}
