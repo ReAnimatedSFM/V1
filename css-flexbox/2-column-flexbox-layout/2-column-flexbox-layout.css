@@ -1,0 +1,37 @@
+
+* {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+header, footer {
+    height: 50px;
+    background-color: #666;
+    width: 100%;
+}
+
+.columns {
+    height: 88vh;
+    display: inline-flex;
+}
+
+main {
+    background-color: #ccc;
+    width: 188.1vh;
+    flex-basis: 66.66%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+aside {
+    background-color: #999;
+    width:20%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
