@@ -1,0 +1,49 @@
+* {
+    color: black;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+header, footer {
+    color: white;
+    background-color: #666;
+    width: 201.4vh;
+    flex: 0 1 50px;
+}
+
+.columns {
+    width: 201.4vh;
+    height: 88vh;
+    flex: 1 1 auto;
+    display: inline-flex;
+}
+
+main {
+    background-color: #ccc;
+    order: 2;
+    flex-basis: 50%;
+}
+
+.sidebar-first {
+    order: 1;
+
+}
+
+.sidebar-second {
+    order: 3;
+
+}
+
+aside {
+    background-color: #999;
+    flex: 1 1 20%;
+}
