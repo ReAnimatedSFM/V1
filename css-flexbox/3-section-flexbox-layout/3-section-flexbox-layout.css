@@ -1,0 +1,40 @@
+
+*{
+    color: white;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+
+header {
+    position: static;
+    height: 50px;
+    width: 100%;
+    background-color: #666;
+    flex-basis: 100%;
+}
+
+section {
+    position:relative absolute;
+    flex-basis: 100%;
+    height: 88vh;
+    background-color: #ccc;
+    width: 100%;
+}
+
+footer {
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    height: 50px;
+
+    background-color: #666;
+    width: 100%;
+}
