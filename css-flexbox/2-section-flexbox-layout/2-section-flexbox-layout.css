@@ -1,24 +1,28 @@
 
+* {
+    color: white;
+}
+
 .wrapper {
     display: flex;
+    flex-direction: row;
     margin: 0 auto;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
     height: 100%;
+    width: 100%;
 
 }
 
 header {
-    position: static;
     height: 50px;
     background-color: #666;
-    flex-basis: 100%;
+    flex: 1 1 100%;
 }
 
 .content {
-    position:relative absolute;
-    flex-basis: 100%;
-    height: 5vh;
+    flex: 1 1 auto;
+    height: 93.2vh;
     background-color: #ccc;
 }
