@@ -1,0 +1,24 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+header {
+    background-image: url(img/header.jpg);
+}
+
+header a {
+    flex-direction: row;
+
+
+    font-size: 12.5px;
+    margin: 7px;
+    flex: 1 1 7px;
+    width: 100%;
+    background-color: hsl(0, 50%, 5%);
+    text-decoration: none;
+    color: hsl(39, 100%, 59%);
+}
