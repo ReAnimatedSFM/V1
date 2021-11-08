@@ -1,0 +1,73 @@
+﻿body{
+	margin: 0;
+}
+
+header {
+	background-image: url(../img/africa-main-edited.jpg);
+	width: 1920px;
+	height: 480px;
+	color: orange;
+
+	margin-bottom: 80px;
+}
+
+header h1 {
+	background-color: rgba(128, 128, 128, 0.521);
+	transform: translate(2%, 675%);
+	padding: 10px;
+}
+
+main {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+ul {
+	background-color: darkorange;
+	text-decoration: none;
+	list-style-type: none;
+
+	padding-left: 50px;
+	padding-right: 50px;
+
+	line-height: 30px;
+
+	transform: translate(90%, -10%);
+	text-align: center;
+
+	
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.content {
+	justify-content: flex-start;
+	align-items: flex-start;
+	
+	transform: translate(10%);
+	max-width: 1500px;
+}
+
+footer h3 {
+	text-align: center;
+	font-size: 60px;
+}
+
+
+/* Slideshow styles her - bare undlad at pille ved disse */
+.fadein { 
+	position:relative; 
+	width:500px; 
+	height:332px; 
+	margin: 0 auto;
+}
+
+.fadein img { 
+	position:absolute; 
+	left:0; 
+	top:0; 
+}
