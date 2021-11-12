@@ -1,0 +1,154 @@
+
+* {
+    color: hsl(0, 0%, 19%);
+}
+
+body {
+    background-color: hsl(0, 0%, 89%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1200px;
+}
+
+/*--- -.- ---*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    max-width: 1200px;
+
+}
+
+.parent {
+    display: flex;
+    transform: translate(2.5%, 300%);
+}
+
+.card {
+    display: inline;
+    margin-left: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    display: inline;
+    font-size: 14px;
+    margin: 0;
+
+    text-transform: uppercase;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+header img {
+    display: inline-flex;
+
+    max-width: 8vh;
+
+    transform: translate(100vh, 2vh);
+
+
+}
+
+.parent:nth-of-type(2) {
+    display: flex;
+    transform: translate(175vh, -4.5vh);
+}
+
+/*--- Header ---*/
+
+main {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+}
+
+
+nav h2 {
+    transform: translate(40vh, 5vh);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.tcontainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    margin-top: 20vh;
+
+}
+
+.child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex: auto;
+    margin-left: 15vh;
+}
+
+nav h3 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+nav h4 {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    max-width: 500px;
+}
+
+.tparent {
+
+    margin-top: -2vh;
+
+    transform: translate(1vh, 1vh);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.tparent h4 {
+    width: 50%;
+    margin-bottom: -0.5vh;
+}
+
+
+
